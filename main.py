@@ -12,7 +12,6 @@ if __name__ == "__main__":
     break_flag = Value("i", 1)
     text = manager.Value(c_char_p, "")
 
-    koekatamarin = Koekaramarin()
     p1 = Process(target=voice_to_text, args=(text, break_flag))
     p2 = Process(target=video_capture, args=(text, break_flag))
     p1.start()

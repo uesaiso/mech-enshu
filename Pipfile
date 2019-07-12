@@ -8,10 +8,10 @@ flake8 = "*"
 black = "*"
 
 [packages]
-opencv-python = "*"
 speechrecognition = "*"
 pyaudio = "*"
 pillow = "*"
+opencv-python = "*"
 
 [requires]
 python_version = "3.7"
